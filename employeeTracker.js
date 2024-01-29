@@ -13,7 +13,9 @@ const connection = mysql.createConnection({
 // Connect to MySQL
 connection.connect((err) => {
   if (err) throw err;
-  console.log('Connected to MySQL');
+  console.log('=============================================');
+  console.log('               EMPLOYEE TRACKER              ');
+  console.log('=============================================');
   startApp();
 });
 
